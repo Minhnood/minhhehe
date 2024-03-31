@@ -35,3 +35,57 @@
         font-size: 15px;
     }
 }
+@media screen and (max-width: 432px){
+    header nav {
+        height: 35px;
+        margin: 5px 0px;
+    }
+    a {
+        margin: 0px 20.08px;
+        margin-left: 10px;
+    }
+    header nav ul {
+        padding-top: 6px;
+    }
+    header nav ul li {
+        font-size: 16px;
+    }
+    header nav ul li button {
+        font-size: 16px;
+        width: 111px;
+        height: 27px;
+        padding: 0px 11.23px;
+    }
+    section.hero img {
+        width: 110px;
+        height: 110px;
+        border: 7px solid #fff;
+    }
+    div.card {
+        width: 90%;
+        margin: 0px calc(10% / 2);
+        margin-bottom: 30px;
+    }
+    div.card img {
+        margin-bottom: 5px;
+    }
+    section.hero div.info span {
+        font-size: 5px;
+    }
+    section.hero div.info h1{
+        font-size: 17px;
+    }
+    section.hero div.info h1>span{
+        font-size: 17px;
+    }
+    section.hero div.info h2{
+        font-size: 17px;
+    }
+    div.card span,h3{
+        font-size: 15px;
+    }
+    footer p {
+        height: 50px;
+        padding-top: 13px;
+    }
+}
