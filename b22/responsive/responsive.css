@@ -37,7 +37,6 @@
 }
 @media screen and (max-width: 432px){
     header nav {
-        height: 35px;
         margin: 5px 0px;
     }
     a {
@@ -89,23 +88,18 @@
         padding-top: 13px;
     }
 }
-@media screen and (max-width: 382px){
+@media screen and (max-width: 371px){
     section.hero img {
-        width: 100px;
-        height: 100px;
-        border: 7px solid #fff;
+        display: none;
+    }
+    a{
+        margin: 0px 4.08px
     }
     section.hero div.info span {
-        font-size: 5px;
+        font-size: 9px;
     }
-    section.hero div.info h1{
-        font-size: 13px;
-    }
-    section.hero div.info h1>span{
-        font-size: 13px;
-    }
-    section.hero div.info h2{
-        font-size: 13px;
+    section.hero div.info h1,section.hero div.info h1>span,section.hero div.info h2{
+        font-size: 21px;
     }
     section.portfolio h2{
         padding-top: 40px;

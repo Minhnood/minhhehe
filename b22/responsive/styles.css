@@ -5,18 +5,16 @@
 }
 
 header nav{
-    height: 70px;
     margin: 10px 0px;
 }
 header nav ul{
     padding-top: 21px;
     text-align: center;
     display: block;
-    height: 70px;
 }   
 header nav ul li {
     list-style-type: none;
-    font-size: 20px;
+    font-size: 20px;    
     display: inline-block;
 }
 header nav ul li button{
@@ -24,7 +22,6 @@ header nav ul li button{
     font-size: 21px;
     margin-top: -12px;
     width: 170px;
-    height: 54px;
     border: 2px solid #8d8d91;
     padding: 12px 26.23px;
     border-radius: 6px;
